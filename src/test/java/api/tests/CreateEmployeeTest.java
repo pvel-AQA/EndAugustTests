@@ -60,7 +60,7 @@ public class CreateEmployeeTest {
         );
     }
 
-    @ParameterizedTest(name = "Employee should not be created with name \"{0}\" -> expects error: \"{1}\"")
+    @ParameterizedTest(name = "Employee should be created with name \"{0}\"")
     @MethodSource("validNames")
     public void employeeShouldBeCreatedWithValidName(String name) {
         EmployeeRequest employeeRequest = EmployeeRequest.builder()
