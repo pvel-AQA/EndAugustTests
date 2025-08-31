@@ -40,6 +40,11 @@
             <artifactId>jackson-databind</artifactId>
             <version>2.19.2</version>
         </dependency>
+        <dependency>
+            <groupId>com.codeborne</groupId>
+            <artifactId>selenide</artifactId>
+            <version>7.10.0</version>
+        </dependency>
     </dependencies>
 
     <build>

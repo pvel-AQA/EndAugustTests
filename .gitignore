@@ -11,6 +11,7 @@ target/
 *.iws
 *.iml
 *.ipr
+ui-testCases.txt
 
 ### Eclipse ###
 .apt_generated
